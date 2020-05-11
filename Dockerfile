@@ -19,7 +19,7 @@ RUN apt-get install yarn libnotify-bin notify-osd build-essential -y
 RUN npm -v
 RUN node -v
 RUN yarn --version
-RUN yarn global add ciao-deploy anchor-cli
+RUN yarn global add ciao-deploy anchor-cli apidoc
 
 # chrome
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
